@@ -11,6 +11,7 @@ env:
     - CONDA_CHANNELS="conda-forge"
     - CONDA_DEPENDENCIES="glueviz pytest mock"
     - PIP_DEPENDENCIES="pydicom"
+    - DEBUG=True
   matrix:
     - PYTHON_VERSION=2.7
     - PYTHON_VERSION=3.5
