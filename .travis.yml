@@ -11,6 +11,7 @@ env:
     - CONDA_CHANNELS="conda-forge"
     - CONDA_DEPENDENCIES="glueviz"
     - DEBUG=True
+    - NUMPY_VERSION=stable
   matrix:
     - PYTHON_VERSION=2.7
 
