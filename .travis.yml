@@ -8,8 +8,7 @@ notifications:
 env:
   global:
     - SETUP_XVFB=True
-    - CONDA_CHANNELS="conda-forge"
-    - CONDA_DEPENDENCIES="glueviz"
+    - CONDA_DEPENDENCIES="glueviz pytest"
     - DEBUG=True
     - NUMPY_VERSION=stable
   matrix:
