@@ -8,9 +8,10 @@ notifications:
 env:
   global:
     - SETUP_XVFB=True
-    - CONDA_DEPENDENCIES="glueviz pytest"
+    - CONDA_DEPENDENCIES="glueviz mock"
+    - PIP_DEPENDENCIES="pydicom"
     - DEBUG=True
-    - NUMPY_VERSION=stable
+
   matrix:
     - PYTHON_VERSION=2.7
 
